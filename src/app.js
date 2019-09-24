@@ -47,7 +47,7 @@ app.get('/weather', (req,res)=> {
       if(!req.query.address){
         return res.send("adderes is neccesary") 
       }
-
+//Testing
     
         getCode(req.query.address, (error,data)=>{
             if(error)
